@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 
@@ -28,12 +29,23 @@ int main()
      cout << "endereco de intPointer3 deletado: "<< intPointer3 << " valor armazenado no endereco de intPointer3 deletado: "<< *intPointer3 << endl;
 
      //(6) Para inserir conteudo em um endereço de ponteiro e para ler o conteudo de um endereço de ponteiro utiliza-se '*'
+     int valor = 25;
      int * intPointer4;
      cout <<"endereco de intPointer4: " << intPointer4 << " conteudo de intPointer4: "<< *intPointer4 << endl;
 
-     *intPointer4 = 25;
+     *intPointer4 = valor;
      
      cout <<"endereco de intPointer4(new): " << intPointer4 << " conteudo de intPointer4(new): "<< *intPointer4 << endl;
 
+     //não recomenda-se definir um vetor sem incia-lo para isso pode ser definido como vazio, para tal deve-se usar a palavra NULL 
+     //bool *intPointer5 = NULL;
+     //float *intPointer6 = NULL;
+     //cout << "endereço de intPointer5: " << intPointer5 << " valor do conteudo intPointer5: " << *intPointer5 << endl;
+     //cout << "endereço de intPointer6: " << intPointer6 << " valor do conteudo intPointer6: " << *intPointer6 << endl;
+     
+     
+     
+     
+     cout << "teste" << endl;
      return 0;
 }
