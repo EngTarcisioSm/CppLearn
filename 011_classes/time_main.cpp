@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int main(void)
 {
      /*
      Neste primeiro objeto passamos todos os parametros. Em outras palavras, nenhum valor padrão foi usado
