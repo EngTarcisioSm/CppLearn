@@ -1,0 +1,26 @@
+#include "stack.h"
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    ItemType character;
+    Stack stack;
+    ItemType stackItem;
+
+    cout << "Adiocionar uma String." << endl;
+
+    cin.get(character);
+    while(character != '\n'){
+        stack.push(character);
+        cin.get(character);
+    } 
+
+    while(!stack.isEmpy())
+    {
+        stackItem = stack.pop();
+        cout << stackItem;
+    }
+    cout << endl;
+}

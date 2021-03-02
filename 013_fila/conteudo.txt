@@ -1,0 +1,14 @@
+- Implementação de filas com vetores 
+
+- First input First output (FIFO)
+- Last input Last output (LILO)
+
+- Operações
+    - isFull: verifica se a fila esta cheia
+    - isEmpy: esta vazio
+    - Enqueue: Insere item na fila (ultima posição)
+    - Desqueue: Remove primeiro item da fila
+
+- Utilizado em sistemas operacionais ou em algum periférico compartilhado 
+
+6:24
