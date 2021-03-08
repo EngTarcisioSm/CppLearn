@@ -6,12 +6,8 @@
 
 using namespace std;
 
-
-Time::Time(int hour, int minute, int second)
-{
-     this->hour = hour;
-     this->minute = minute;
-     this->second = second;
+/*forma de inicializar os parametros (uma das formas)*/
+Time::Time(int h, int m, int s) : hour(h), minute(m), second(s){
 }
 /*Metodos getters*/
 

@@ -11,4 +11,4 @@
 
 - Utilizado em sistemas operacionais ou em algum periférico compartilhado 
 
-6:24
+- Implementação circular
