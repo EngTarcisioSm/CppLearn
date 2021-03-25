@@ -2,6 +2,9 @@
 #include "item_type.h"
 #include "NodeType.h"
 
+#ifndef QUEUEENCADEADA_H
+#define QUEUEENCADEADA_H
+
 class Queue
 {
 private:
@@ -17,4 +20,4 @@ public:
      void enqueue(ItemType);
      ItemType dequeue();
 };
-
+#endif

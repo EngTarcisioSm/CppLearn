@@ -33,8 +33,8 @@ int main(){
                palindrome = false;
      }
      if(palindrome)
-          cout << "String é Palindrome" << endl;
+          cout << "String e Palindrome" << endl;
      else 
-          cout << "String não é Palindrome" << endl;
+          cout << "String nao e Palindrome" << endl;
      return 0;
 }

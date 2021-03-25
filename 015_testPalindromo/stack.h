@@ -2,6 +2,9 @@
 #include "NodeType.h"
 
 
+#ifndef STACK_H 
+#define STACK_H
+
 class Stack
 {
 private:
@@ -17,4 +20,6 @@ public:
      void push(ItemType);
      ItemType pop();
 };
+
+#endif
 
